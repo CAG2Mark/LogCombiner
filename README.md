@@ -2,6 +2,11 @@
 A tool to combine Minecraft Logs
 
 # Using
+
+### Prerequisites
+* Python 3
+* Git (alternatively you can download this repo as a zip and extract it and `cd` into it later)
+
 Run the commands:
 ```bash
 git clone https://github.com/CAG2Mark/LogCombiner
@@ -12,9 +17,17 @@ Create the a text file called `mcpath.txt` in the `LogCombiner` folder, and past
 ### Using the log combiner
 
 You can run the following command to run the log combiner: (note: the final log file may end up gigabytes in size!)
+
+Windows:
+```powershell
+py combiner.py
+```
+
+macOS/Linux/Unix:
 ```bash
 python3 combiner.py
 ```
+
 ## Using the log searcher
 
 To use the searcher (it searches for a specific keyword), make a file called `keywords.txt`. It should be in the following format:
@@ -36,10 +49,10 @@ You can then run the following command to run the search:
 
 Windows:
 ```powershell
-cat keywords.txt | searcher.py >results.txt
+cat keywords.txt | py searcher.py >results.txt
 ```
 
 macOS/Linux/UNIX:
 ```bash
-searcher.py <keywords.txt >results.txt
+python3 searcher.py <keywords.txt >results.txt
 ```
