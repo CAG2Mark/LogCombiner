@@ -1,5 +1,5 @@
 # LogCombiner
-A tool to combine Minecraft Logs
+A tool to combine and search Logs
 
 # Using
 
