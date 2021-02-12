@@ -12,7 +12,7 @@ Run the commands:
 git clone https://github.com/CAG2Mark/LogCombiner
 cd LogCombiner
 ```
-Create the a text file called `mcpath.txt` in the `LogCombiner` folder, and paste in the link to your Minecraft **root** folder.
+Create the a text file called `mcpath.txt` in the `LogCombiner` folder, and paste in the link to your **root**, such that the log .gz files are in <root>/Logs.
 
 ### Using the log combiner
 
